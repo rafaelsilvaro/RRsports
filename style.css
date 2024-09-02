@@ -1,0 +1,75 @@
+body {
+    
+    background: darkolivegreen;
+    color:rgb(238, 227, 9);
+    margin: 0px;
+        font-family: "New Amsterdam", sans-serif;
+        margin-bottom: 100px;
+
+}
+
+header {
+
+    border-bottom: solid 2px red;
+    padding: 20px;
+    font-size: 40px;
+    color: red;
+
+}
+
+.introducao {
+
+ background : black ;
+ padding-bottom: 80px;
+ padding-top: 80px;
+ display: flex;
+ justify-content: center;
+
+}
+
+.texto {
+
+    margin-right: 5% ;
+}
+
+.video {
+
+    padding-right: 10%;
+}
+
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 30px;
+    margin-top: 100px;
+    
+} 
+
+.noticias {
+
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    border: solid red;
+}
+
+.categoria-videos img {
+
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+
+    opacity: 1.0;
+    border: 2px yellow solid ;
+}
+
+.noticias h2 {
+
+    border-bottom: 3px solid red;
+    color: red;
+
+}
+
